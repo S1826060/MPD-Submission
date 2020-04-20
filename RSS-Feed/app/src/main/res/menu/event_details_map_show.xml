@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--S1826060-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_of_stuff"
+        android:visible="false">
+        <item
+            android:id="@+id/nav_recentre_map"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="@string/recent_map" />
+        <item
+            android:id="@+id/nav_traffic_layer_on"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/traffic_layer_on" />
+        <item
+            android:id="@+id/change_map_type"
+            android:icon="@drawable/ic_notifications_off_black_24dp"
+            android:title="@string/change_map_type" />
+
+    </group>
+</menu>

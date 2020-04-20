@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Scottish Traffic Info S1826060</string>
+    <string name="title_activity_home_page">S1826060 App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="near_me">Near Me</string>
+
+    <!--S1826060-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="search_hint_material">Enter search query</string>
+
+    <string name="recent_map">Recenter Map</string>
+    <string name="traffic_layer_on">Traffic Layer ON</string>
+    <string name="change_map_type">Change Map Type</string>
+
+    <string name="no_data_available">No Data Available!</string>
+
+    <string name="incidents">INCIDENTS</string>
+    <string name="roadworks">ROADWORKS</string>
+
+    <string name="side_menu_text">                             S1826060</string>
+    <string name="side_menu_text2">2222</string>
+
+    <string name="_5">5 miles</string>
+    <string name="all_events">All Events</string>
+    <string name="_100">100 miles</string>
+    <string name="_50">50 miles</string>
+    <string name="_25">25 miles</string>
+    <string name="_20">20 miles</string>
+    <string name="_15">15 miles</string>
+    <string name="_10">10 miles</string>
+    <string name="initial_data">M4 westbound between j11 and J12 | Westbound|Congestion</string>
+    <string name="day">Mon</string>
+    <string name="todo">TODO</string>
+    <string name="titleDataMap">M23| BROKEN DOWN VEHICLE</string>
+    <string name="please_fill_the_information">Please Fill the Information</string>
+    <string name="planned_roadworks">Planned Roadworks</string>
+    <string name="ten">10</string>
+
+</resources>

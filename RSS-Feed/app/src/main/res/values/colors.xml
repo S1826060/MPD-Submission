@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--S1826060-->
+<resources>
+    <color name="colorPrimary">#4456CF</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="color_gray">#C8C5C8C7</color>
+    <color name="color_green">#008000</color>
+    <color name="color_orange">#FFA500</color>
+    <color name="color_red">#FF0000</color>
+
+
+</resources>

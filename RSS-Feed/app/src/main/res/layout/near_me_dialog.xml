@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--S1826060-->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/near_me"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+            <RadioGroup
+                android:id="@+id/nearme_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/five_miles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@android:color/black"
+                    android:text="@string/_5"
+                    android:textSize="15sp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/ten_miles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:buttonTint="@android:color/black"
+                    android:text="@string/_10"
+                    android:textSize="15sp"></RadioButton>
+
+
+                <RadioButton
+                    android:id="@+id/fifteen_miles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:buttonTint="@android:color/black"
+                    android:text="@string/_15"
+                    android:textSize="15sp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/twenty_miles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:buttonTint="@android:color/black"
+                    android:text="@string/_20"
+                    android:textSize="15sp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/twenty_five_miles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:buttonTint="@android:color/black"
+                    android:text="@string/_25"
+                    android:textSize="15sp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/fifty_miles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:buttonTint="@android:color/black"
+                    android:text="@string/_50"
+                    android:textSize="15sp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/hundred_miles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:buttonTint="@android:color/black"
+                    android:text="@string/_100"
+                    android:textSize="15sp"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/all_events"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:buttonTint="@android:color/black"
+                    android:text="@string/all_events"
+                    android:textSize="15sp"></RadioButton>
+            </RadioGroup>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

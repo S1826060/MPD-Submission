@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--S1826060-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/planned_roadworks_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/planned_roadworks"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/planned_roadworks_total_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/planned_roadworks_TV"
+        android:gravity="center"
+        android:text="@string/ten"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textStyle="bold">
+    </TextView>
+    <ProgressBar
+        android:id="@+id/planned_roadworks_progress"
+        style="@android:style/Widget.ProgressBar.Large.Inverse"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_below="@+id/planned_roadworks_TV"
+        android:gravity="center"
+        android:progressBackgroundTint="@android:color/white"
+        android:progressTint="@android:color/white">
+    </ProgressBar>
+</RelativeLayout>
